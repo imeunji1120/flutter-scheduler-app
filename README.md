@@ -4,7 +4,7 @@ Flutter로 개발된 일정 관리 앱입니다. 사용자는 날짜별로 일�
 
 ## 🖼️ 앱 미리보기
 
-![앱 미리보기](https://github.com/imeunji1120/flutter-scheduler-app/blob/main/assets/preview.png) <!-- 미리보기 이미지 URL -->
+![앱 미리보기](https://imeunji1120.github.io/flutter-scheduler-app/assets/preview.png)
 
 ## 기능
 
