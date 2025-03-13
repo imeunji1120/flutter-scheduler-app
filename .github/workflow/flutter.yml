@@ -3,7 +3,7 @@ name: Flutter Web Build and Deploy
 on:
   push:
     branches:
-      - main  # main 브랜치에 푸시될 때마다
+      - main  # main 브랜치에 푸시될 때마다 실행
 
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.7.0'  # 설치할 Flutter 버전 설정
+          flutter-version: '3.7.0'  # 원하는 Flutter 버전 설정
 
       - name: Install dependencies
         run: flutter pub get
