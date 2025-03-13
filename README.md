@@ -1,16 +1,26 @@
-# calender_scheduler
+# Flutter 일정 관리 앱 (Flutter Scheduler App)
 
-A new Flutter project.
+Flutter로 개발된 일정 관리 앱입니다. 사용자는 날짜별로 일정을 추가, 수정, 삭제할 수 있으며, 색상 카테고리로 일정을 구분할 수 있습니다.
 
-## Getting Started
+## 🖼️ 앱 미리보기
 
-This project is a starting point for a Flutter application.
+![앱 미리보기](https://github.com/imeunji1120/flutter-scheduler-app/blob/main/assets/preview.png) <!-- 미리보기 이미지 URL -->
 
-A few resources to get you started if this is your first Flutter project:
+## 기능
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 📅 **일정 추가**: 날짜와 시간을 설정하여 새로운 일정을 추가합니다.
+- ⏰ **시간 설정**: 시작 시간과 종료 시간을 자유롭게 설정하여 일정을 관리합니다.
+- 🎨 **카테고리 색상**: 일정에 색상을 지정하여 구분할 수 있습니다.
+- 📝 **일정 수정**: 기존 일정을 수정하고 업데이트할 수 있습니다.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 사용 기술
+
+- **Flutter**: UI 및 앱 기능 구현
+- **Drift**: 로컬 데이터베이스 관리 (SQLite 기반)
+
+## 설치 방법
+
+1. **Flutter 설치**: [Flutter 설치 가이드](https://flutter.dev/docs/get-started/install) 참고
+2. **앱 클론**:
+   ```bash
+   git clone https://github.com/imeunji1120/flutter-scheduler-app.git
