@@ -22,7 +22,7 @@ jobs:
         run: flutter pub get
 
       - name: Build web app
-        run: flutter build web
+        run: flutter build web --verbose
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.7.3 # 이전 버전 사용
